@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VyomGarud - Web Developer Intern Assessment
 
-## Getting Started
+This repository contains the landing page project for the VyomGarud Web Developer Intern Assessment. The goal was to build a modern, responsive, and professional landing page for a military-grade UAV systems company.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[**Insert Your Vercel Deployment Link Here**](https://your-vyomgarud-link.vercel.app)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview
 
-## Learn More
+**(Required: Insert your screenshots or a GIF here)**
 
-To learn more about Next.js, take a look at the following resources:
+*Desktop View*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[Image of your project's desktop view]
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*Mobile View*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+[Image of your project's mobile view]
+
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS (v4)
+* **Animations:** Framer Motion
+
+---
+
+## 🏃‍♂️ Getting Started
+
+This guide will get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+* Node.js (v18.0 or later)
+* npm or yarn
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd your-repo-name
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+---
+
+## 🎨 Design Decisions
+
+This section covers the design and technical choices made to meet the project brief.
+
+### 1. Brand Aesthetic
+I aimed for the required "dark, modern, and slightly military/futuristic" aesthetic. I used a dark charcoal/black base for all sections to create a cohesive, high-tech, and professional feel that makes the content stand out.
+
+### 2. Color Palette
+The color palette is based strictly on the requirements:
+
+* **Charcoal (`#131313`)**: Used as the primary background for all sections to ensure a consistent dark mode.
+* **White (`#e0e0e0`)**: Used for all primary text to ensure high readability against the dark background.
+* **Orange (`#ff7b00`)**: This was the main accent color. I used it strategically for all Call-to-Actions (CTAs), buttons, key titles (like in the 'Core Tenets' section), and hover effects to guide the user's eye and highlight interactive elements.
+
+### 3. Typography
+* **Headings (h1, h2, h3):** I chose **Poppins** for all headings. Its bold and geometric style gives the site a strong, modern, and confident tone that fits a high-tech company.
+* **Body Text:** I used **Inter** for all body text. It's a highly readable sans-serif font that works perfectly for descriptions and paragraphs on a dark background.
+
+### 4. Animations
+To make the page feel more dynamic and premium, I added subtle on-scroll animations using **Framer Motion**. This includes fade-in and slide-up effects on sections like 'Our Mission' and the 'Capabilities' cards, which engages the user as they scroll.
+
+### 5. Responsiveness
+The site is fully responsive, built mobile-first. I used Tailwind's utility classes to ensure the layout adapts from a single-column view on mobile to multi-column grids on tablets and desktops (e.g., the 'Capabilities' cards).
