@@ -6,7 +6,7 @@ This repository contains the landing page project for the VyomGarud Web Develope
 
 ## 🚀 Live Demo
 
-[**Insert Your Vercel Deployment Link Here**](https://your-vyomgarud-link.vercel.app)
+[**VyomGarud Live Link**](https://vyom-garud-eight.vercel.app)
 
 ---
 
